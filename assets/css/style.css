@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-image: url(../images/white-waves\ copy.png);
+  }
+
+    nav {
+    padding-left: 10px;
+    background-color: #536dfe;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+  .main-container {
+    padding: 2em;
+    margin: 100px 200px;
+    background-color: white;
+    border: 3px double #536dfe;
+  }
+
+  .section-header {
+    font-size: 2em;
+    color: #536dfe;
+    margin-top: 15px;
+  }
+
+  hr {
+    margin-top: 20px
+  }
+
+  img {
+    height: 200px;
+    width: 150px;
+    border: 1px solid #536dfe;
+    margin: .25em 1em 1em .5em;
+    float: left;
+  }
+
+  .input-field input[type=text]:focus + label {
+    color: #536dfe;
+  }
+
+  .input-field input[type=text]:focus {
+    border-bottom: 1px solid #536dfe;
+    box-shadow: 0 1px 0 0 #536dfe;
+  }
+
+  .button-container {
+    margin-left: 10px;
+  }
+
+  .waves-effect {
+    background-color: cornflowerblue;
+  }
+
+  .waves-effect:hover {
+    background-color: red;
+  }
+
+  .footcontainer, .page-footer {
+    text-align: center;
+    justify-content: center;
+    background-color: #666666;
+  }
+
+  .page-footer {
+    border-top: 5px solid #536dfe;
+  }
