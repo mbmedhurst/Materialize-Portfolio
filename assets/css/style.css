@@ -1,71 +1,147 @@
 body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    background-image: url(../images/white-waves\ copy.png);
-  }
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-image: url(../images/white-waves\ copy.png);
+  /* font-family: 'Lustria', serif; */
+  color: #777777;
+}
 
-    nav {
-    padding-left: 10px;
-    background-color: #536dfe;
-  }
+nav {
+  padding-left: 10px;
+  background-color: #536dfe;
+}
 
-  main {
-    flex: 1 0 auto;
-  }
+main {
+  flex: 1 0 auto;
+}
 
-  .main-container {
-    padding: 2em;
-    margin: 100px 200px;
-    background-color: white;
-    border: 3px double #536dfe;
-  }
+.main-container {
+  padding: 2em;
+  margin: 100px 200px;
+  background-color: white;
+  border: 3px double #536dfe;
+}
 
-  .section-header {
-    font-size: 2em;
-    color: #536dfe;
-    margin-top: 15px;
-  }
+.section-header {
+  font-size: 2em;
+  color: #536dfe;
+  margin-top: 15px;
+}
 
-  hr {
-    margin-top: 20px
-  }
+hr {
+  margin-top: 20px
+}
 
-  img {
-    height: 200px;
-    width: 150px;
-    border: 1px solid #536dfe;
-    margin: .25em 1em 1em .5em;
-    float: left;
-  }
+.about-img {
+  height: 200px;
+  width: 150px;
+  border: 1px solid #536dfe;
+  margin: .25em 1em 1em .5em;
+  float: left;
+}
 
-  .input-field input[type=text]:focus + label {
-    color: #536dfe;
-  }
+p + p {
+  margin-top: 15px;
+}
 
-  .input-field input[type=text]:focus {
-    border-bottom: 1px solid #536dfe;
-    box-shadow: 0 1px 0 0 #536dfe;
-  }
+p {
+  /* text-align: justify; */
+  font-size: 16px;
+  line-height: 25px;
+}
 
-  .button-container {
-    margin-left: 10px;
-  }
+.image-row {
+  margin: 0px;
+}
 
-  .waves-effect {
-    background-color: cornflowerblue;
-  }
+.image-container {
+  width: 90%;
+  margin: auto;
+  /* background-color: lightgrey; */
+  /* border: 1px dotted red; */
+  text-align: center;
+}
 
-  .waves-effect:hover {
-    background-color: red;
-  }
+.port-image {
+  width: 100%;
+}
 
-  .footcontainer, .page-footer {
-    text-align: center;
-    justify-content: center;
-    background-color: #666666;
-  }
+.text-container{
+  /* position: relative; */
+  width: 90%;
+  margin: auto;
+  background-color: #536dfe;
+  color: white;
+  /* border: 1px dotted red; */
+  text-align: center;
+  padding: 10px;
+}
 
-  .page-footer {
-    border-top: 5px solid #536dfe;
-  }
+.text-container-empty {
+  width: 90%;
+  margin: auto;
+  /* background-color: #536dfe; */
+  color: white;
+  /* border: 1px dotted red; */
+  text-align: center;
+  padding: 10px;
+}
+
+.page-text {
+  margin-top: -20px;
+}
+
+.form-container {
+  margin-top: 40px;
+}
+
+/* changing the color on the form fields will only work if I add '!important'  */
+.input-field input[type=text]:focus + label {
+  color: #536dfe !important;
+}
+
+.input-field input[type=email]:focus + label {
+  color: #536dfe !important;
+}
+
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #536dfe !important;
+  box-shadow: 0 1px 0 0 #536dfe !important;
+}
+
+.input-field input[type=email]:focus {
+  border-bottom: 1px solid #536dfe !important;
+  box-shadow: 0 1px 0 0 #536dfe !important;
+}
+
+#textarea1:focus + label {
+  color: #536dfe !important;
+}
+
+#textarea1:focus {
+  border-bottom: 1px solid #536dfe;
+  box-shadow: 0 1px 0 0 #536dfe;
+}
+
+.button-container {
+  margin-left: 10px;
+}
+
+.waves-effect {
+  background-color: cornflowerblue;
+}
+
+.waves-effect:hover {
+  background-color: red;
+}
+
+.footcontainer, .page-footer {
+  text-align: center;
+  justify-content: center;
+  background-color: #666666;
+}
+
+.page-footer {
+  border-top: 5px solid #536dfe;
+}
